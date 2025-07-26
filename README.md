@@ -64,14 +64,14 @@ and use the download functionality to obtain updated CSV files.
 
 ## Requirements
 
-To run the analysis script you need:
+To run the analysis script we need:
 
 * R (version 3.6 or later)
 * The `tidyverse` package for data manipulation and plotting
 * Optionally, the `maps` package if you wish to generate the U.S. choropleth
   map (the script will skip the map if the package is not installed)
 
-You can install the required packages from CRAN:
+Installed the required packages from CRAN:
 
 ```r
 install.packages(c("tidyverse", "maps"))
@@ -98,8 +98,6 @@ written to the `report` directory:
 * `figures/top10_states_2024.png` – bar chart of the top ten states by total payment in 2024
 * `figures/payment_per_physician_map_2024.png` – heat map of payment per physician by state (requires the `maps` package)
 
-If the `maps` package is not installed, the script will issue a warning and
-skip generating the choropleth map.
 
 ## Analytical questions addressed
 
@@ -119,11 +117,7 @@ skip generating the choropleth map.
    physicians.
 
 ## Why this project is unique
-
-While many portfolio projects focus on retail sales, e‑commerce or public
-transportation data, this project examines a **regulatory compliance dataset
-that captures the intersection of health care and marketing**.  By analysing
-Open Payments summary data, the project demonstrates:
+By analysing Open Payments summary data, the project demonstrates:
 
 * **Domain awareness:** an understanding of how marketing interactions between
   industry and clinicians are recorded and disclosed, and why these
